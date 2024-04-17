@@ -3,7 +3,6 @@ body {
     font-weight: bold;
     font-size: 20pt;
     letter-spacing: 4pt;
-    ;
     margin: 0;
     scroll-behavior: smooth;
     background-color: white;
@@ -28,6 +27,7 @@ header {
     margin: 0 auto;
     text-align: center;
     align-content: center;
+    vertical-align: center;
     min-height: 100vh;
     background-color: black;
 }
@@ -82,6 +82,15 @@ main.main-next-party {
 main.main-story {
     background-color: white;
     color: black;
+}
+
+main.map {
+    background-color: black;
+}
+
+main.map iframe {
+    width: 100%;
+    height: 100vh;
 }
 
 main.main-next-party nav, main.main-story nav {
