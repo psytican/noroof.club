@@ -1,0 +1,15 @@
+body, h1, h2, h3, h4 {
+    margin: 0;
+}
+
+body, a {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    font-size: var(--normal);
+    letter-spacing: 4pt;
+    color: var(--white);
+}
+
+a {
+    text-decoration: none;
+}

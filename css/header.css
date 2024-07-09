@@ -1,0 +1,17 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    min-height: 100vh;
+    background-color: var(--black);
+}
+
+header article.header-logo figure {
+    margin: 0;
+}
+
+header article.header-logo figure img {
+    max-height: 50vh;
+    width: 100%;
+}

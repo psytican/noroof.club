@@ -1,0 +1,18 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    min-height: 100vh;
+    background-color: var(--white);
+}
+
+footer article.footer-social figure {
+    margin: 0;
+}
+
+footer article.footer-social figure a {
+    color: var(--black);
+    font-size: var(--huge);
+    margin: 0;
+}
