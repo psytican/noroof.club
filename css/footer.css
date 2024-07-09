@@ -9,6 +9,7 @@ footer {
 
 footer article.footer-social figure {
     margin: 0;
+    text-align: center;
 }
 
 footer article.footer-social figure a {
