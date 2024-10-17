@@ -18,7 +18,14 @@ main.player article figure {
     font-size: var(--huge);
 }
 
-main.player article figure img {
+main.player article figure div.control {
+    text-align: center;
+    background-image: url("/images/button-play.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    margin: 0 auto;
     max-height: 50vh;
     width: 50vh;
+    height: 50vh;
 }

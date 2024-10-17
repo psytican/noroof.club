@@ -23,16 +23,16 @@
     <meta http-equiv="Expires" content="0" />
 </head>
 <body>
+<video id="radio-player">
+    <source src="https://radio.noroof.club:3333/listen.mp3" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
 <main class="player">
     <article>
         <figure>
             <h1>DRUMNBASS</h1>
             <br>
-            <video id="radio-player">
-                <source src="https://radio.noroof.club:3333/listen.mp3" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <img id="player-control" src="/images/button-play.svg" alt="" onclick="radioToggle()" style="display: block"/>
+            <div id="player-control" class="control"></div>
         </figure>
     </article>
 </main>
