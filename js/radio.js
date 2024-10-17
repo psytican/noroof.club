@@ -5,16 +5,13 @@ function radioToggle() {
         return;
     }
 
-    let play = document.getElementById("radio-player-button-play");
-    let pause = document.getElementById("radio-player-button-pause");
+    let playerControl = document.getElementById("player-control");
 
     if (radioPlayer.paused === true) {
-        play.style.display = "none";
-        pause.style.display = "block";
+        playerControl.src = "/images/button-stop.svg";
         radioPlayer.play();
     } else {
-        pause.style.display = "none";
-        play.style.display = "block";
+        playerControl.src = "/images/button-play.svg";
         radioPlayer.pause();
     }
 }

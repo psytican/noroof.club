@@ -20,5 +20,5 @@ main.player article figure {
 
 main.player article figure img {
     max-height: 50vh;
-    width: 100%;
+    width: 50vh;
 }
