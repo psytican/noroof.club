@@ -19,6 +19,7 @@ main.player article figure {
 }
 
 main.player article figure div.control {
+    display: block;
     text-align: center;
     background-image: url("/images/button-play.svg");
     background-position: center;
