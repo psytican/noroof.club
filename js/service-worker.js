@@ -1,4 +1,4 @@
-const CACHE_NAME = 'noroof-club--cache-version--2';
+const CACHE_NAME = 'noroof-club--cache-version--3';
 
 const urlsToCache = [
     '/',
@@ -6,8 +6,10 @@ const urlsToCache = [
     '/radio-ambient.html',
     '/radio-drumnbass.html',
     '/radio-gettotech.html',
+    '/radio-indie-dance.html',
     '/radio-psydub.html',
     '/radio-psytrance.html',
+    '/radio-techno.html',
     '/css/0.css',
     '/css/480.css',
     '/css/768.css',
